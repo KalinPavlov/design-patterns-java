@@ -2,7 +2,7 @@ package factory;
 
 public class ShapeFactory {
 
-	public static Shape getShare(String sourceType) {
+	public static Shape getShape(String sourceType) {
 		switch (sourceType) {
 		case "Circle":
 			return new Circle(new Point(10, 10), 20);

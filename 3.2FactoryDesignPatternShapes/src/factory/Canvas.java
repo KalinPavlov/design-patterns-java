@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Canvas {
 	private ArrayList<Shape> shapeList = new ArrayList<>();
 	
-	public void addNewShare(String shapeType) {
-		Shape shape = ShapeFactory.getShare(shapeType);
+	public void addNewShape(String shapeType) {
+		Shape shape = ShapeFactory.getShape(shapeType);
 		shapeList.add(shape);
 	}
 	
